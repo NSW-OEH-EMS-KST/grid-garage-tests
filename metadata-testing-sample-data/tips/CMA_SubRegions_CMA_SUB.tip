@@ -1,0 +1,29 @@
+Title: HEADER TEXT
+Description: None
+URL: None
+URL2: None
+URL3: None
+File: None
+Source_Custodian: None
+Source_Currency: None
+Soucce_Lineage: None
+Source_Resolution: None
+Source_Projection: Geographic
+Source_Extent_Region: NSW
+Source_Extent_Coordinates: None
+Source_Data_Format: Feature
+MCAS_S_Currency: 2017-05-15 00:00:00
+MCAS_S_Lineage: Derived from OEH P-Drive
+MCAS_S_Resolution: 30m
+MCAS_S_Projection: GDA_1994_Lamberts Conformal Conic
+MCAS_S_Extent_Region: Armidale Test Area
+MCAS_S_Extent_Coordinates: None
+MCAS_S_Data_Format: Raster
+MCAS_S_Data_type: None
+MCAS_S_Units: None
+MCAS_S_Units_Ranking: None
+MCAS_S_Contact_Organization: NSW OEH
+MCAS_S_Contact_Name: Tom Barrett
+MCAS_S_Contact_e_mail: tom.barrett@environment.nsw.gov.au
+Raster_Attribute_Value_Field: None
+Raster_Attribute_Value_Text: None
