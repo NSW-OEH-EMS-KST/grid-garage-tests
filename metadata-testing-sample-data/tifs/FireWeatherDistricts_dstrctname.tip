@@ -1,0 +1,34 @@
+Title: HEADER TEXT
+Description: None
+_1: _
+URL: None
+URL2: None
+URL3: None
+File: BOM_FireWeatherDistricts_dstrctname.html
+_2: _
+Source_Custodian: None
+Source_Currency: None
+Source_Lineage: None
+Source_Resolution: None
+Source_Projection: Geographic
+Source_Extent_Region: NSW
+Source_Extent_Coordinates: None
+Source_Data_Format: Feature Polygon
+_3: _
+MCAS_S_Currency: 2017-05-15 00:00:00
+MCAS_S_Lineage: Derived from OEH Spatial (P) Drive
+MCAS_S_Resolution: 500.0
+MCAS_S_Projection: GDA_1994_MGA_Zone_56
+MCAS_S_Extent_Region: NSW
+MCAS_S_Extent_Coordinates: 330070 6637900 360070 6661000 NaN NaN NaN NaN
+MCAS_S_Data_Format: RasterDataset
+MCAS_S_Data_type: tif
+_4: _
+MCAS_S_Units: None
+MCAS_S_Units_Ranking: None
+MCAS_S_Contact_Organization: NSW OEH
+MCAS_S_Contact_Name: Tom Barrett
+MCAS_S_Contact_e_mail: tom.barrett@environment.nsw.gov.au
+_5: _
+CategoryValue: Value
+CategoryLabel: Count
