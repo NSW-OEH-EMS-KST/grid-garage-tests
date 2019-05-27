@@ -1,0 +1,35 @@
+Title: SPOT5_WoodyExtent_Armidale_sml_Value
+Description: See HTML metadata file
+_1: _
+URL: None
+URL2: None
+URL3: None
+File: SPOT5_WoodyExtent_Armidale_sml_Value.html
+_2: _
+Source_Custodian: See HTML metadata file
+Source_Currency: See HTML metadata file
+Source_Lineage: See HTML metadata file
+Source_Resolution: See HTML metadata file
+Source_Projection: Geographic
+Source_Extent_Region: NSW
+Source_Extent_Coordinates: See HTML metadata file
+Source_Data_Format: Feature Polygon
+_3: _
+MCAS_S_Currency: 15/05/2017
+MCAS_S_Lineage: Derived from OEH Spatial (P) Drive - P:\Corporate\Themes\Admin\Corporate\Corporate.gdb
+MCAS_S_Resolution: 100
+MCAS_S_Projection: GDA_1994_Australia_Albers
+MCAS_S_Extent_Region: Australian Alps Climate Change Impacts Study Area
+MCAS_S_Extent_Coordinates: 1016341 -4219964 1737341 -3597164
+MCAS_S_Data_Format: RasterDataset
+MCAS_S_Data_type: GeoTIFF
+_4: _
+MCAS_S_Units: See HTML metadata file
+MCAS_S_Units_Ranking: None
+MCAS_S_Contact_Organization: NSW Office of Environment & Heritage
+MCAS_S_Contact_Name: Tom Barrett
+MCAS_S_Contact_e_mail: tom.barrett@environment.nsw.gov.au
+_5: _
+CategoryValue: Value
+CategoryLabel: BFMC
+CategorySort: true
