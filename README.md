@@ -1,4 +1,12 @@
-# grid-garage-3-tests
+# grid-garage-3-test
+
+Arcmap test for tool:
+
+### metadata-import_tip_file_to_table
+
+***
+
+### grid-garage-3-tests
 
 This repository is now branch-based as test artefacts are often somewhat transient.
 
@@ -16,4 +24,3 @@ Each test:
 To run a test:
 - download the test folder
 - TO DO ... finish this description
-
