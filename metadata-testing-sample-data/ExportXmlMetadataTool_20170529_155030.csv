@@ -1,6 +1,0 @@
-geodata,html_file,xml_file,proc_hist
-P:\Corporate\Themes\Admin\Corporate\Corporate.gdb\StatePlanRegions,C:\Data\grid-garage-tests\metadata-testing-sample-data\html\StatePlanRegions.html,"Error creating 'C:\Data\grid-garage-tests\metadata-testing-sample-data\html\StatePlanRegions.xml': {'function': 'save', 'line': 'line 281', 'arc': '', 'synerror': '', 'filename': 'paperwork.py'}",deprecating
-P:\Corporate\Themes\Admin\Corporate\Corporate.gdb\CMA_SubRegions,"Error creating 'C:\Data\grid-garage-tests\metadata-testing-sample-data\html\CMA_SubRegions.html': Failed to execute. Parameters are not valid.
-ERROR 000725: Output File: Dataset C:\Data\grid-garage-tests\metadata-testing-sample-data\html\CMA_SubRegions.html already exists.
-Failed to execute (XSLTransform).
-","Error creating 'C:\Data\grid-garage-tests\metadata-testing-sample-data\html\CMA_SubRegions.xml': {'function': 'save', 'line': 'line 281', 'arc': '', 'synerror': '', 'filename': 'paperwork.py'}",deprecating
