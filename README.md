@@ -1,4 +1,12 @@
-# grid-garage-3-tests
+# grid-garage-3-test
+
+Arcmap test for tool:
+
+### geodata-describe
+
+***
+
+### grid-garage-3-tests
 
 This repository is now branch-based as test artefacts are often somewhat transient.
 
@@ -12,8 +20,3 @@ Each test:
 - is in a folder named "tool_category-tool_name"
 - is comprised of an mxd (tool_name.mxd) and an fgdb (tool_name.gdb)
 - tests a single tool, but may contain multiple tests
-
-To run a test:
-- download the test folder
-- TO DO ... finish this description
-
