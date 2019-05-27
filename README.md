@@ -1,3 +1,9 @@
+#grid-garage-3-tests
+
+Arcmap test for tool:
+
+#TOOL_NAME_HERE
+
 # grid-garage-3-tests
 
 This repository is now branch-based as test artefacts are often somewhat transient.
