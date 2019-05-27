@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:res="http://www.esri.com/metadata/res/" xmlns:gmd="http://www.isotc211.org/2005/gmd">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style type="text/css" id="internalStyle" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+    body {
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: #000020;
+      background-color: #FFFFFF;
+    }
+    div.itemDescription {
+      margin-right: 2em;
+      margin-bottom: 2em;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    h1.idHeading {
+      color: #008FAF;
+      text-align: center;
+    }
+    h1.gpHeading {
+      color: black;
+    }
+    span.idHeading {
+      color: #007799;
+      font-weight: bold;
+    }
+    .center {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    img {
+      width: 210px;
+      border-width: 1px;
+      border-style: outset;
+    }
+    img.center {
+      text-align: center;
+      display: block;
+      border-color: #666666;
+    }
+    img.enclosed {
+      width: 60%;
+    }
+    img.gp {
+      width: auto;
+      border-style: none;
+      margin-top: -1.2em;
+    }
+    .noThumbnail {
+      color: #888888;
+      font-size: 1.2em;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 3em 3em;
+      position: relative;
+      text-align: center;
+      width: 210px;
+      height: 140px;
+    }
+    .noContent {
+      color: #888888;
+    }
+    .itemInfo p {
+      margin-top: -0.1em;
+    }
+    .itemInfo img {
+      width: auto;
+      border: none;
+    }
+    .gpItemInfo p {
+      margin-top: -1.2em;
+    }
+    div.box {
+      margin-left: 1em;
+    }
+    div.hide {
+      display: none;
+    }
+    div.show {
+      display: block;
+    }
+    span.hide {
+      display: none;
+    }
+    span.show {
+      display: inline-block;
+    }
+    .backToTop a {
+      color: #DDDDDD;
+      font-style: italic;
+      font-size: 0.85em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h2.gp {
+      color: #00709C;
+    }
+    .gpsubtitle {
+      color: black;
+      font-size: 1.2em;
+	  font-weight: normal;
+    }
+    .gptags {
+      color: black;
+      font-size: 0.8em;
+	  font-weight: normal;
+    }
+    .head {
+      font-size: 1.3em;
+    }
+    a:link {
+      color: #098EA6;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #098EA6;
+      text-decoration: none;
+    }
+    a:link:hover, a:visited:hover {
+      color: #007799;
+      background-color: #C6E6EF;
+    }
+    h2.iso a {
+      color: #007799;
+      font-weight: bold;
+    }
+    .iso a:link {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:visited {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:link:hover, .iso a:visited:hover {
+      color: #006688;
+      background-color: #C6E6EF;
+    }
+    h2.fgdc a {
+      color: #888888;
+      font-weight: bold;
+    }
+    .fgdc a:link {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:visited {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:link:hover, .fgdc a:visited:hover {
+      color: #777777;
+      background-color: #C6E6EF;
+    }
+	h3 {
+		font-size: 1em; 
+		color: #00709C;
+	}
+    .backToTop {
+      color: #AAAAAA;
+      margin-left: 1em;
+    }
+    p.gp {
+      margin-top: .6em;
+      margin-bottom: .6em;
+    }
+    ul ul {
+      list-style-type: square;
+    }
+    ul li.iso19139heading {
+      margin-left: -3em;
+	  list-style: none;
+	  font-weight: bold;
+      color: #666666;
+    }
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+    dl.iso {
+      background-color: #F2F9FF;
+    }
+    dl.esri {
+      background-color: #F2FFF9;
+    }
+    dl.subtype {
+      width: 40em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      padding: 0;
+    }
+    dt {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dt {
+      width: 60%;
+      float: left;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dt.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    dd {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dd {
+      float: left;
+      width: 25%;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dd.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    .isoElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .esriElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .element {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #666666;
+    }
+    unknownElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #333333;
+    }
+    .sync {
+      color: #006400;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .syncOld {
+      color: #888888;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .textOld {
+      color: #999999;
+    }
+    .code {
+      font-family: monospace;
+    }
+    pre.wrap {
+      width: 96%;
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 1em;
+      margin: 0 0 0 0;
+      white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    pre.wrap p {
+      padding-bottom: 1em;
+    }
+    pre.wrap li {
+      padding-bottom: 1em;
+    }
+    pre.wrap br {
+      display: block;
+    }
+    pre.gp {
+      font-family: Courier New, Courier, monospace;
+      line-height: 1.2em;
+    }
+    .gpcode {
+      margin-left:15px;
+      border: 1px dashed #ACC6D8;
+      padding: 10px;
+      background-color:#EEEEEE;
+      height: auto;
+      overflow: scroll; 
+      width: 96%;
+    }
+    tr {
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+      background: #dddddd;
+      vertical-align: bottom;
+      font-size: 0.8em;
+    }
+    td {
+      background: #EEEEEE;
+      color: black;
+      vertical-align: top;
+      font-size: 0.8em;
+    }
+    td.description {
+      background: white;
+    }
+  </style>
+    <script type="text/javascript" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+	/*  */
+		function hideShow(divID) {
+			var item = document.getElementById(divID);
+			var itemShow = document.getElementById(divID + 'Show');
+			var itemHide = document.getElementById(divID + 'Hide');
+			if (item) {
+				if (item.className == 'hide') {
+					item.className='show';
+					itemShow.className='hide';
+					itemHide.className='show';
+				}
+				else {
+					item.className='hide';
+					itemShow.className='show';
+					itemHide.className='hide';
+				}
+			}
+		}
+	/*  */
+	</script>
+  </head>
+  <body oncontextmenu="return true">
+    <div class="itemDescription" id="overview" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <h1 class="idHeading">WIRES Branches</h1>
+      <p class="center">
+        <span class="idHeading">File Geodatabase Feature Class</span>
+      </p>
+      <div class="center">
+        <div class="noThumbnail">Thumbnail Not Available</div>
+      </div>
+      <p class="center">
+        <span class="idHeading">Tags</span>
+        <br />Wildlife rehabilitation</p>
+      <br />
+      <div class="itemInfo">
+        <span class="idHeading">Summary</span>
+        <p>
+          <pre class="wrap">WIRES (NSW Wildlife Information Rescue and Education Service) operation branch boundaries</pre>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Description</span>
+        <p>
+          <pre class="wrap">
+            <DIV STYLE="text-align:Left;">
+              <DIV>
+                <DIV>
+                  <P>
+                    <SPAN>WIRES (</SPAN>
+                    <SPAN>NSW Wildlife Information Rescue and Education Service</SPAN>
+                    <SPAN>) operation</SPAN>
+                    <SPAN>al</SPAN>
+                    <SPAN />
+                    <SPAN>branch boundaries</SPAN>
+                  </P>
+                </DIV>
+              </DIV>
+            </DIV>
+          </pre>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Credits</span>
+        <p>
+          <span class="noContent">There are no credits for this item.</span>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Use limitations</span>
+        <p>
+          <span class="noContent">There are no access and use limitations for this item.</span>
+        </p>
+      </div>
+      <p>
+        <span class="idHeading">Extent</span>
+        <br />
+        <dl>
+          <dt>
+            <table cols="4" width="auto" border="0">
+              <col align="left" />
+              <col align="right" />
+              <col align="left" />
+              <col align="right" />
+              <tr>
+                <td class="description">
+                  <span class="idHeading">West</span> </td>
+                <td class="description">140.999265</td>
+                <td class="description">   <span class="idHeading">East</span> </td>
+                <td class="description">159.105430</td>
+              </tr>
+              <tr>
+                <td class="description">
+                  <span class="idHeading">North</span> </td>
+                <td class="description">-28.157021</td>
+                <td class="description">   <span class="idHeading">South</span> </td>
+                <td class="description">-37.505077</td>
+              </tr>
+            </table>
+          </dt>
+        </dl>
+      </p>
+      <p>
+        <div>
+          <span class="idHeading">Scale Range</span>
+        </div>
+        <dl>
+          <dt>
+            <table cols="2" width="auto" border="0">
+              <col align="left" />
+              <col align="left" />
+              <tr>
+                <td class="description">
+                  <span class="idHeading">Maximum (zoomed in)</span> </td>
+                <td class="description">1:5,000</td>
+              </tr>
+              <tr>
+                <td class="description">
+                  <span class="idHeading">Minimum (zoomed out)</span> </td>
+                <td class="description">1:150,000,000</td>
+              </tr>
+            </table>
+          </dt>
+        </dl>
+      </p>
+    </div>
+    <h2 class="iso head">
+      <a href="#arcgisMetadata" onclick="hideShow('arcgisMetadata')" title="Content created and managed in the Description tab">ArcGIS Metadata <span id="arcgisMetadataShow" class="hide">▼</span><span id="arcgisMetadataHide" class="show">►</span></a>
+    </h2>
+    <div class="show" id="arcgisMetadata" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="box arcgis">
+        <div>
+          <a name="TopArcGIS" id="TopArcGIS" />
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('true')" href="#true">Topics and Keywords 
+				<span id="trueShow" class="hide">▼</span><span id="trueHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="true">
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Content type</span> 
+				Downloadable Data</dt>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('true')" href="#true">Hide Topics and Keywords ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EACA')" href="#ID0EACA">Citation 
+			<span id="ID0EACAShow" class="hide">▼</span><span id="ID0EACAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EACA">
+          <dt>
+            <span class="esriElement">Title</span> WIRES Branches</dt>
+          <dt>
+            <span class="esriElement">Revision date</span> 2015-11-02 00:00:00</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Presentation formats</span> 
+	    <span class="sync">*</span> digital map</dt>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EACA')" href="#ID0EACA">Hide Citation ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0TAHCA')" href="#ID0TAHCA">Resource Details 
+				<span id="ID0TAHCAShow" class="hide">▼</span><span id="ID0TAHCAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0TAHCA">
+          <dt>
+            <span class="esriElement">Dataset languages</span> 
+	<span class="sync">*</span> English (AUSTRALIA)
+				</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Spatial representation type</span> 
+	    <span class="sync">*</span> vector</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Processing environment</span> Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.6.1.9270</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">ArcGIS item properties</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Name</span> WIRES_Branches</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Location</span> file://\\WIN-DQMPDN2OEKP\D$\gg\grid-garage-small-tests\metadata-export_metatdata\Example_data_with_XML_metdata.gdb</dt>
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Access protocol</span> Local Area Network</dt>
+            </dl>
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0TAHCA')" href="#ID0TAHCA">Hide Resource Details ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAECA')" href="#ID0EAECA">Extents 
+				<span id="ID0EAECAShow" class="hide">▼</span><span id="ID0EAECAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAECA">
+          <dt>
+            <span class="esriElement">Extent</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Geographic extent</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Bounding rectangle</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Extent type</span> 
+Extent used for searching</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">West longitude</span> 140.999265</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">North latitude</span> -28.157021</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">South latitude</span> -37.505077</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">East longitude</span> 159.105430</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Extent contains the resource</span> Yes</dt>
+              </dl>
+              <br />
+            </dl>
+          </dl>
+          <dt>
+            <span class="esriElement">Extent in the item's coordinate system</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">North latitude</span> -28.157021</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">South latitude</span> -37.505077</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">West longitude</span> 140.999265</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">East longitude</span> 159.105430</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Extent contains the resource</span> Yes</dt>
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAECA')" href="#ID0EAECA">Hide Extents ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAEA')" href="#ID0EAEA">Spatial Reference 
+				<span id="ID0EAEAShow" class="hide">▼</span><span id="ID0EAEAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAEA">
+          <dt>
+            <span class="esriElement">ArcGIS coordinate system</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Type</span> Geographic</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Geographic coordinate reference</span> GCS_GDA_1994</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Coordinate reference details</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Geographic coordinate system</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Well-known identifier</span> 4283</dt>
+                <dt>
+                  <span class="esriElement">X origin</span> 28</dt>
+                <dt>
+                  <span class="esriElement">Y origin</span> -149</dt>
+                <dt>
+                  <span class="esriElement">XY scale</span> 38166098537038.094</dt>
+                <dt>
+                  <span class="esriElement">Z origin</span> -100000</dt>
+                <dt>
+                  <span class="esriElement">Z scale</span> 10000</dt>
+                <dt>
+                  <span class="esriElement">M origin</span> -100000</dt>
+                <dt>
+                  <span class="esriElement">M scale</span> 10000</dt>
+                <dt>
+                  <span class="esriElement">XY tolerance</span> 5.2402526762307401e-14</dt>
+                <dt>
+                  <span class="esriElement">Z tolerance</span> 0.001</dt>
+                <dt>
+                  <span class="esriElement">M tolerance</span> 0.001</dt>
+                <dt>
+                  <span class="esriElement">High precision</span> true</dt>
+                <dt>
+                  <span class="esriElement">Left longitude</span> -180</dt>
+                <dt>
+                  <span class="esriElement">Latest well-known identifier</span> 4283</dt>
+                <dt>
+                  <span class="esriElement">Well-known text</span> GEOGCS["GCS_GDA_1994",DATUM["D_GDA_1994",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["EPSG",4283]]</dt>
+              </dl>
+            </dl>
+          </dl>
+          <br />
+          <dt>
+            <span class="esriElement">Reference system identifier</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Value</span> 4283</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Codespace</span> EPSG</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Version</span> 8.3.4(3.0.1)</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAEA')" href="#ID0EAEA">Hide Spatial Reference ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EALA')" href="#ID0EALA">Spatial Data Properties 
+				<span id="ID0EALAShow" class="hide">▼</span><span id="ID0EALAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EALA">
+          <a onclick="hideShow('ID0EBALA')" href="#ID0EBALA">
+            <dt>
+              <span class="esriElement">Vector</span> 
+<span id="ID0EBALAShow" class="hide">▼</span><span id="ID0EBALAHide" class="show">►</span></dt>
+          </a>
+          <div class="show" id="ID0EBALA">
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Level of topology for this dataset</span> 
+			geometry only</dt>
+              <br />
+              <br />
+              <dt>
+                <span class="esriElement">Geometric objects</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Feature class name</span> WIRES_Branches</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Object type</span> 
+			composite</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Object count</span> 20</dt>
+              </dl>
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EBALA')" href="#ID0EBALA">Hide Vector ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <a onclick="hideShow('ID0EA')" href="#ID0EA">
+            <dt>
+              <span class="esriElement">ArcGIS Feature Class Properties</span> 
+</dt>
+            <span id="ID0EAShow" class="hide">▼</span>
+            <span id="ID0EAHide" class="show">►</span>
+          </a>
+          <div class="show" id="ID0EA">
+            <dl>
+              <dt>
+                <span class="esriElement">Feature class name</span> WIRES_Branches</dt>
+              <dl>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Feature type</span> Simple</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Geometry type</span> Polygon</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Linear referencing</span> FALSE</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Has topology</span> FALSE</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Feature count</span> 20</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Spatial index</span> TRUE</dt>
+              </dl>
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EA')" href="#ID0EA">Hide ArcGIS Feature Class Properties ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EALA')" href="#ID0EALA">Hide Spatial Data Properties ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EJA')" href="#ID0EJA">Distribution 
+			<span id="ID0EJAShow" class="hide">▼</span><span id="ID0EJAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EJA">
+          <dt>
+            <span class="esriElement">Distribution format</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Name</span> File Geodatabase Feature Class</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EJA')" href="#ID0EJA">Hide Distribution ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EGA')" href="#ID0EGA">Fields 
+			<span id="ID0EGAShow" class="hide">▼</span><span id="ID0EGAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EGA">
+          <a onclick="hideShow('ID0EAGA')" href="#ID0EAGA">
+            <dt>
+              <span class="esriElement">Details for object</span> WIRES_Branches 
+					<span id="ID0EAGAShow" class="hide">▼</span><span id="ID0EAGAHide" class="show">►</span></dt>
+          </a>
+          <div class="show" id="ID0EAGA">
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Row count</span> 20</dt>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Type</span> Feature Class</dt>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EGAGA')" href="#ID0EGAGA">
+                <dt>
+                  <span class="esriElement">Field</span> OBJECTID</dt> 
+		<span id="ID0EGAGAShow" class="hide">▼</span><span id="ID0EGAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0EGAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> OID</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> OBJECTID</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 4</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Field description</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Internal feature number.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description source</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description of values</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Sequential unique whole numbers that are automatically generated.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EGAGA')" href="#ID0EGAGA">Hide Field OBJECTID ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EFAGA')" href="#ID0EFAGA">
+                <dt>
+                  <span class="esriElement">Field</span> Shape</dt> 
+		<span id="ID0EFAGAShow" class="hide">▼</span><span id="ID0EFAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0EFAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Geometry</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> Shape</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Field description</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Feature geometry.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description source</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description of values</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Coordinates defining the features.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EFAGA')" href="#ID0EFAGA">Hide Field Shape ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EEAGA')" href="#ID0EEAGA">
+                <dt>
+                  <span class="esriElement">Field</span> Area_SqKm</dt> 
+		<span id="ID0EEAGAShow" class="hide">▼</span><span id="ID0EEAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0EEAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Double</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> Area_SqKm</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 8</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EEAGA')" href="#ID0EEAGA">Hide Field Area_SqKm ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EDAGA')" href="#ID0EDAGA">
+                <dt>
+                  <span class="esriElement">Field</span> VerDate</dt> 
+		<span id="ID0EDAGAShow" class="hide">▼</span><span id="ID0EDAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0EDAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Date</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> VerDate</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 8</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EDAGA')" href="#ID0EDAGA">Hide Field VerDate ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0ECAGA')" href="#ID0ECAGA">
+                <dt>
+                  <span class="esriElement">Field</span> WIRES_Branch</dt> 
+		<span id="ID0ECAGAShow" class="hide">▼</span><span id="ID0ECAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0ECAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> String</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> WIRES_Branch</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 254</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0ECAGA')" href="#ID0ECAGA">Hide Field WIRES_Branch ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EBAGA')" href="#ID0EBAGA">
+                <dt>
+                  <span class="esriElement">Field</span> Shape_Length</dt> 
+		<span id="ID0EBAGAShow" class="hide">▼</span><span id="ID0EBAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0EBAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Double</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> Shape_Length</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 8</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Field description</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Length of feature in internal units.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description source</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description of values</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Positive real numbers that are automatically generated.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EBAGA')" href="#ID0EBAGA">Hide Field Shape_Length ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EAAGA')" href="#ID0EAAGA">
+                <dt>
+                  <span class="esriElement">Field</span> Shape_Area</dt> 
+		<span id="ID0EAAGAShow" class="hide">▼</span><span id="ID0EAAGAHide" class="show">►</span></a>
+              <div class="show" id="ID0EAAGA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Double</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> Shape_Area</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 8</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Field description</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Area of feature in internal units squared.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description source</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Description of values</span></dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Positive real numbers that are automatically generated.</pre>
+                      <br />
+                    </dd>
+                  </dl>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EAAGA')" href="#ID0EAAGA">Hide Field Shape_Area ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EAGA')" href="#ID0EAGA">Hide Details for object WIRES_Branches ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EGA')" href="#ID0EGA">Hide Fields ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EBIA')" href="#ID0EBIA">Metadata Details 
+				<span id="ID0EBIAShow" class="hide">▼</span><span id="ID0EBIAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EBIA">
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Metadata language</span> English (AUSTRALIA)
+			</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Scope of the data described by the metadata</span> 
+	    <span class="sync">*</span> dataset</dt>
+          <dt>
+            <span class="esriElement">Scope name</span> 
+	    <span class="sync">*</span> dataset</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Last update</span> 2019-05-27</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">ArcGIS metadata properties</span>
+          </dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Metadata format</span> ArcGIS 1.0</dt>
+            <dt>
+              <span class="esriElement">Standard or profile used to edit metadata</span> ISO19139</dt>
+            <dt>
+              <span class="esriElement">Metadata style</span> ISO 19139 Metadata Implementation Specification</dt>
+            <br />
+            <br />
+            <dt>
+              <span class="esriElement">Created in ArcGIS for the item</span> 2018-03-12 15:29:17</dt>
+            <dt>
+              <span class="esriElement">Last modified in ArcGIS for the item</span> 2019-05-27 10:07:04</dt>
+            <br />
+            <br />
+            <dt>
+              <span class="esriElement">Automatic updates</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Have been performed</span> Yes</dt>
+              <dt>
+                <span class="esriElement">Last update</span> 2019-05-27 10:07:04</dt>
+            </dl>
+            <br />
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EBIA')" href="#ID0EBIA">Hide Metadata Details ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EKA')" href="#ID0EKA">Thumbnail and Enclosures 
+			<span id="ID0EKAShow" class="hide">▼</span><span id="ID0EKAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EKA">
+          <dt>
+            <span class="esriElement">Thumbnail</span> 
+</dt>
+          <dl />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EKA')" href="#ID0EKA">Hide Thumbnail and Enclosures ▲</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="fgdc head">
+      <a href="#fgdcMetadata" onclick="hideShow('fgdcMetadata')" title="Content created in the 9.3.1 FGDC metadata editor, and managed with the USGS MP Metadata Translator tool. Upgrade to ArcGIS Metadata to manage this content here, in the Description tab.">FGDC Metadata (read-only) <span id="fgdcMetadataShow" class="show">▼</span><span id="fgdcMetadataHide" class="hide">►</span></a>
+    </h2>
+    <div class="hide" id="fgdcMetadata" xmlns="">
+      <div class="box fgdc">
+        <div>
+          <a name="TopFGDC" id="TopFGDC" />
+        </div>
+        <div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Entities and Attributes 
+				<span id="/metadata/eainfo//text()[1]Show" class="hide">▼</span><span id="/metadata/eainfo//text()[1]Hide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="/metadata/eainfo//text()[1]">
+            <a name="Entity and Attribute Information" id="Entity and Attribute Information" />
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Detailed Description</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Entity Type</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Entity Type Label</span> <span class="textOld">WIRES_Branches</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">OBJECTID</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Internal feature number.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Sequential unique whole numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Shape</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Feature geometry.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Coordinates defining the features.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Area_SqKm</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">VerDate</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">WIRES_Branch</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Shape_Length</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Length of feature in internal units.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Positive real numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Shape_Area</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Area of feature in internal units squared.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Positive real numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </dd>
+                      <br />
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Hide Entities and Attributes ▲</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
