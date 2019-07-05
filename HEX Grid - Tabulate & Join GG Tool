@@ -1,0 +1,87 @@
+HEX Grid - Tabulate & Join GG Tool
+
+Base steps:
+	Must have Grid Polygons with a unique Grid ID
+	Must have base datasets
+
+	Run GG Search Tool
+	Select from Table .shp
+	Run GG Describe Tool
+	Check Spatial References
+	.. run code to 'reproject' selected features based on Spatial Reference
+	Re-run GG Select & Describe to confirm correct data
+	Clip to 'boundary' e.g. HEX or LGA
+	.. In the clip tool you need to be able to output to feature dataset
+
+	TABULATE INTERSECTION > this tool needs development for GG
+	---------------------
+	This process allows stats relating to AREA / LENGTH / POINT COUNT, based on each Grid Cell.
+	This process creates a single Table for each layer that is used in the tabulate process
+	It is possible that some layers will not intersect the data, but table is created with no information
+
+	This done through batch command.  Need to be able to allow in a search or describe table or a new tabulate intersect table which field is being used and what the table name will be
+
+	HEX_Grid_1ha	GRID_ID	ThreatenedWD_FaunaSightings_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_TFAUNA	Scientific			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	FishCondition_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_FCON	FishStatus			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	FishExpectedness_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_FEXP	Expectedne			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	RiverStyle_StreamRecoveryPotential_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_RSSRECPOT	RECOVERY_P			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	CreekBuffers_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_CRKBUFF	Creeks			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	GroundwaterDependentEcoSystems_SubSurface_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_GDEsub	S_ETYPE_DS			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	GroundwaterDependentEcoSystems_Surface_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_GDEsurf	S_ETYPE_DS			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	MacrophyesHabitat_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_MACROHAB	HABITAT			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	NBC_Metro_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_NBCMETRO	PCTName			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	Riparian_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_Riparian	Tag_1			UNKNOWN
+	HEX_Grid_1ha	GRID_ID	ThreatenedWD_BirdSightings_clip	C:\Data\GG_ExampleData_TabulateJoin\ExampleData.gdb\tbl_TBIRD	Scientific			UNKNOWN
+
+
+	The output tables appear to have 5 forced fields - Object ID, GRID_ID, <field from above>, AREA/LENGTH/PNT_COUNT, PERCENTAGE
+	These fields will be deleted later in the join process
+
+
+	ADD INDIVIUAL FIELD TO EACH TABLE THAT IDENTIFIES THE TBL / FIELD TYPE = Long Int.  / Use Field Calcutor to round(field,0)
+    --------------------------------------------------------------------------------------------------------------------------
+    The aim here is to have a field that reflects the layer.
+    The value of the attribute is either Area, Length or Point Count, but in this case is calculated rounded to Int ... 
+    Maybe somehow have a check button to allow different types e.g. Short Int, Long Int, Floating or Double ??
+
+    Example: tbl_TBIRD
+
+    Add field, it would be good if the tbl name can be selected to be the field name 
+
+	round( !PNT_COUNT!)
+	round( !AREA!)
+	round( !LENGTH!)
+
+	JOIN TABLE
+	----------
+
+	See NEW PYTHON CODE
+
+	This done via the Join Field method in arcgis (batched)
+
+	HEX_Grid_1ha	GRID_ID	tbl_TBIRD	GRID_ID	TBIRD
+	HEX_Grid_1ha	GRID_ID	tbl_CRKBUFF	GRID_ID	CRKBUFF
+	HEX_Grid_1ha	GRID_ID	tbl_FCON	GRID_ID	FCON
+	HEX_Grid_1ha	GRID_ID	tbl_FEXP	GRID_ID	FEXP
+	HEX_Grid_1ha	GRID_ID	tbl_GDEsub	GRID_ID	GDEsub
+	HEX_Grid_1ha	GRID_ID	tbl_GDEsurf	GRID_ID	GDEsurf
+	HEX_Grid_1ha	GRID_ID	tbl_MACROHAB	GRID_ID	MACROHAB
+	HEX_Grid_1ha	GRID_ID	tbl_NBCMETRO	GRID_ID	NBCMETRO
+	HEX_Grid_1ha	GRID_ID	tbl_Riparian	GRID_ID	RIPARIAN
+	HEX_Grid_1ha	GRID_ID	tbl_RSSRECPOT	GRID_ID	RSSRECOPT
+	HEX_Grid_1ha	GRID_ID	tbl_TFAUNA	GRID_ID	TFAUNA
+
+
+	TVALUE FIELD - this to frequency / count of <> null or 0
+	========================================================
+	OPEN HEX GRID LAYER, this should now contain the fields above
+	Add Field 'TValue', short integer type
+	Calulated by using python code block in field calculator
+
+	def FieldCount(f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11):
+		return sum(v > 0 for k, v in locals().iteritems())
+
+	FieldCount(!TBIRD!,!CRKBUFF!,!FCON!,!FEXP!,!GDEsub!,!GDEsurf!,!MACROHAB!,!NBCMETRO!,!RIPARIAN!,!RSSRECOPT!,!TFAUNA!)
+
+	From this point would all be post processing ......
+	

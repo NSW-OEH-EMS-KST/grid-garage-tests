@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>8667B279-AAC9-41B8-B22A-48B598E230BA</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/GAScopeCodeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>dataset</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>Allan Raine</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>NSW Department of Primary Industries (Office of Water)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:positionName>
+				<gco:CharacterString>Monitoring and Reporting Co-ordinator</gco:CharacterString>
+			</gmd:positionName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>02 4904 2565</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>02 4904 2503</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>PO Box 2213</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>DANGAR</gco:CharacterString>
+							</gmd:city>
+							<gmd:administrativeArea>
+								<gco:CharacterString>New South Wales</gco:CharacterString>
+							</gmd:administrativeArea>
+							<gmd:postalCode>
+								<gco:CharacterString>2309</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Australia</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>allan.raine@water.nsw.gov.au</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2012-03-15</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.1</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>4283</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Riverstyles Spatial Layer for New South Wales</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>Geomorphic condition, Recovery potential, River fragility</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2004</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2012-03-13</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2012-03-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>The River Styles framework is a tool used to characterise geomorphology, which provides baseline information and understanding of river forms, processes, evolution, condition and trajectory. The spatial layer has 3 main primary layers, being River Style, Geomorphic Condition, and Recovery Potential. A further derivative layer is developed to reflect the fragility of each style.
+Riverstyle examines the pattern and connectivity of reaches of different River Style within the context of catchment-scale controls. Geomorphic condition desribes the extent to which the river has been altered relative to reference condition for the given style. Recovery Potential describes the timeframes and trajectories for recovery. Fragility describes the senstivity to disturbance for each style.
+
+The framework is described in detail in Brierley, G. and Fryirs, K. (2005). Geomorphology and River Management: Applications of the Riverstyles Framework. Blackwell Publishing, Melbourne.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Riverstyles is used to stratify rivers into like types, as well as for natural resource management planning based on style, condition, and recovery potential.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:credit>
+				<gco:CharacterString>Lampert, Guy</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Dobbs, Lucy</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Broderick, Tony</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Zavadil, Elisa</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Outhet, David</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Cook, Nick</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Schneider, George</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Short, Amalia</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Healey, Michael</gco:CharacterString>
+			</gmd:credit>
+			<gmd:credit>
+				<gco:CharacterString>Raine, Allan</gco:CharacterString>
+			</gmd:credit>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>Allan Raine</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>NSW Department of Primary Industries (Office of Water)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Monitoring and Reporting Co-ordinator</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>02 4904 2565</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>02 4904 2503</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>PO Box 2213</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>DANGAR</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea>
+										<gco:CharacterString>New South Wales</gco:CharacterString>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>2309</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Australia</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>allan.raine@water.nsw.gov.au</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:dateOfNextUpdate>
+						<gco:Date>2017</gco:Date>
+					</gmd:dateOfNextUpdate>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:resourceFormat xlink:type="simple">
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>*.xml</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>Unknown</gco:CharacterString>
+					</gmd:version>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>ECOLOGY-Habitat</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>GEOSCIENCES-Geomorphology</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>WATER</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>WATER-Rivers</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-05-16</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:edition>
+								<gco:CharacterString>Version 2.1</gco:CharacterString>
+							</gmd:edition>
+							<gmd:editionDate>
+								<gco:Date>2008-05-16</gco:Date>
+							</gmd:editionDate>
+							<gmd:identifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:identifier>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>None</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+					</gmd:classification>
+				</gmd:MD_SecurityConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Licence required for agencies outside of NSW Department of Primary Industires</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:useConstraints>
+						<gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+					</gmd:useConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>140.988168</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>153.621689</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-37.445044</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>-28.168974</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Greg Smith</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>NSW Department of Primary Industries (Office of Water)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>Team Leader, Spatial Information and Services</gco:CharacterString>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>02 8838 7519</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>02 9895 7939</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>PO Box 3720</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Parramatta</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea>
+												<gco:CharacterString>New South Wales</gco:CharacterString>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>2124</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Australia</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>greg.smith@water.nsw.gov.au</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>dataset</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>Derived from a number of sources depending on the Catchment Management Authority area.  These are listed below:
+Southern Rivers, Murray, Murrumbidgee, Western and Lower Murray Darling CMA areas - collected by Guy Lampert of GHD in 2011 via contract with the Office of Water.  Mapped waterway lines were segmented using ARCGIS editing tools, with each segment attributed with a River Style, condition rating, recovery potential rating, fragility rating and a confidence level rating in the interpretation of river style. This information was determined through the interpretation of ADS40 and SPOT5 imagery. For the Murray and Murrumbidgee CMAs ADS40 imagery covered the middle to upper catchments with SPOT5 used to assess the streamlines of the lower catchments. The assessment of the Lower Murray-Darling and Western was based entirely on SPOT5. For the Southern Rivers CMA, the assessment was entirely based on ADS40. Contour lines and 1:250k geological mapping were also used to assist in the interpretation of river styles. Field verification was undertaken as part of the assessment, limited to approximately 80% of publically accessible areas, consisting dominantly of road crossings. Naming of river styles was undertaken in accordance with the NSW Office of Water Dichotomous Key. Within the Southern Rivers CMA previous river styles datasets for the Clyde and Tuross catchments were incorporated within the subject dataset. Minor changes were made to the Tuross dataset to provide consistency across the subject dataset.
+
+Northern Rivers CMA - A River Styles assessment was undertaken on the major waterways of the Northern Rivers CMA during the 1990s. In 2011, Alluvium filled-the-gaps to complete the River Styles assessment on all reamining mapped waterways in the region. The assessment was based predominatly on aerial photographs, 10m contour lines and 1:250k geological mapping. Some field verification was undertaken as part of the project.
+
+Namoi - completed by Guy Lampert and Amelia Short in 2004 for the Namoi CMA.  Assessment was based on aerial photography with field verification. A similar approach to the above was used.
+
+Border Rivers Gwydir - completed by Guy Lampert (GHD) for the CMA using the same approach as that for the work completed in that described above for GHD 2011 work.
+
+Central West - completed by Guy Lampert in 2010 for the CMA using the same approach as above.
+
+Lachlan - completed by David Outhet, NSW Office of Water in 2011, using ADS40 stereo-pairs. A much greater level of field validation was undertaken compared to Riverstyles in most other CMA areas.
+
+Hunter Central Rivers - completed by Nick Cook and George Schneider, NSW Office of Water in 2006. A much greater level of field validation was undertaken compared to Riverstyles in most other CMA areas.
+
+Hawkesbury Nepean - completed by ID&amp;A consultants in 2001. The initial capture of data was limited to the major streams only. The layer was updated by Guy Lampert (GHD) in 2012 following a similar approach to that used for Southern Rivers CMA. No field verification was undertaken.  The project did not updated or capture information on streams which occur within reserves. 
+
+Sydney Metro - completed by EarthTech consultants in 2007. The report used a different naming convention for style, condition and recovery potential. These had to be matched to the standard naming convention used by the NSW Office of Water.  The original names used in the EarthTech report are included in the notes field of the attribute table.
+
+
+</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataConstraints>
+		<gmd:MD_SecurityConstraints>
+			<gmd:useLimitation>
+				<gco:CharacterString>None</gco:CharacterString>
+			</gmd:useLimitation>
+			<gmd:classification>
+				<gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+			</gmd:classification>
+		</gmd:MD_SecurityConstraints>
+	</gmd:metadataConstraints>
+	<Esri><CreaDate>20190529</CreaDate><CreaTime>19444700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20190524</SyncDate><SyncTime>15512200</SyncTime><ModDate>20190524</ModDate><ModTime>15512200</ModTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\PC0YC212\C$\Data\WWCS EcoMapping\LGA Regions\NORTHERN BEACHES\NORTHERN BEACHES.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">HEV_RiverStyle_StreamRecoveryPotential_NB</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><copyHistory><copy source="C:\Users\miyakes\Documents\GISoperation\2. Freshwater\Clipped\20190506\StreamRecoveryPotential" dest="\\goulbfp01.dec.int\Group\Waterstudies\MEMA Framework\WQA 1.2.7 Update Objectives\Ecological Assets\GISlayer_20190430\2. Freshwater\StreamRecoveryPotential" date="20190507" time="09410500"></copy></copyHistory><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_GDA_1994</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">GDA_1994_MGA_Zone_56</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;GDA_1994_MGA_Zone_56&amp;quot;,GEOGCS[&amp;quot;GCS_GDA_1994&amp;quot;,DATUM[&amp;quot;D_GDA_1994&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,10000000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,153.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,28356]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;1900&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;28356&lt;/WKID&gt;&lt;LatestWKID&gt;28356&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20190524" Time="121024">CopyFeatures "C:\Data\WWCS EcoMapping\zRcvd\JohnYoung100519\RiverStyle_StreamRecoveryPotential.shp" "C:\Data\WWCS EcoMapping\COASTAL Regions\COASTAL\COASTAL.gdb\COASTAL_Base_Layers\HEV_RiverStyle_StreamRecoveryPotential" # 0 0 0</Process></lineage></DataProperties></Esri><dataqual><lineage><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\d\Pdrive\DataForP\FromNthn\RiverStyles\riverstyles.xml</srcused><procdate Sync="TRUE">20120615</procdate><proctime Sync="TRUE">14174600</proctime></procstep></lineage></dataqual><idinfo><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native><descript><langdata Sync="TRUE">en</langdata><abstract>REQUIRED: A brief narrative summary of the data set.</abstract><purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose></descript><citation><citeinfo><origin>REQUIRED: The name of an organization or individual that developed the data set.</origin><pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate><title Sync="TRUE">RiverStyles</title><ftname Sync="TRUE">RiverStyles</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink Sync="TRUE">\\Lidcona01a\spatialmaster\Corporate\Themes\Water\Classification\Classification.gdb</onlink></citeinfo></citation><timeperd><current>REQUIRED: The basis on which the time period of content information is determined.</current><timeinfo><sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo></timeperd><status><progress>REQUIRED: The state of the data set.</progress><update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update></status><spdom><bounding><westbc Sync="TRUE">140.988168</westbc><eastbc Sync="TRUE">153.621689</eastbc><northbc Sync="TRUE">-28.168974</northbc><southbc Sync="TRUE">-37.445044</southbc></bounding><lboundng><leftbc Sync="TRUE">140.988168</leftbc><rightbc Sync="TRUE">153.621689</rightbc><bottombc Sync="TRUE">-37.445044</bottombc><topbc Sync="TRUE">-28.168974</topbc></lboundng></spdom><keywords><theme><themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt><themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey></theme></keywords><accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst><useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst><natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo><dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.0.5524</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="AUS" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">HEV_RiverStyle_StreamRecoveryPotential_NB</resTitle><presForm><PresFormCd value="005" Sync="TRUE"></PresFormCd></presForm></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">140.988168</westBL><eastBL Sync="TRUE">153.621689</eastBL><northBL Sync="TRUE">-28.168974</northBL><southBL Sync="TRUE">-37.445044</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">140.988168</westBL><eastBL Sync="TRUE">153.621689</eastBL><northBL Sync="TRUE">-28.168974</northBL><southBL Sync="TRUE">-37.445044</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><spatRpType><SpatRepTypCd value="001" Sync="TRUE"></SpatRepTypCd></spatRpType></dataIdInfo><metainfo><langmeta Sync="TRUE">en</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metc><cntinfo><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr><cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice></cntinfo></metc><metd Sync="TRUE">20120615</metd></metainfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="AUS" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distinfo><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\Lidcona01a\spatialmaster\Corporate\Themes\Water\Classification\Classification.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="HEV_RiverStyle_StreamRecoveryPotential_NB"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_GDA_1994</geogcsn></cordsysn><geodetic><horizdn Sync="TRUE">D_GDA_1994</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="28356">GCS_GDA_1994</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">2.1(3.0.1)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="HEV_RiverStyle_StreamRecoveryPotential_NB"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><eainfo><detailed Name="HEV_RiverStyle_StreamRecoveryPotential_NB"><enttyp><enttypl Sync="TRUE">HEV_RiverStyle_StreamRecoveryPotential_NB</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">RECOVERY_P</attrlabl><attalias Sync="TRUE">RECOVERY_P</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed></eainfo><mdDateSt Sync="TRUE">20190524</mdDateSt><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAoorn/EHi6y0OZbJUe71KRQ0drFjIBYKGYnhVyfr1wD
+irhTlN8sVdg3Y6CiuOTxF4hXRp72602CB4lLsnkzEIgAyxyoJx83C7jxx61jxfEq6tbeWa/j06YB
+HcRwymN12bd4wd+4gOrDpkdATxW8cHVl8OpPMj0miuVsfHmmTav/AGVflLC8MSyr5sg2MGONuWCk
+MGypUgcjFdSzKuNzAZ6ZNYzpTpu0lYadxHdY0LuwVQMlmOAKEkSVA8bq6noVORXzH8UvFfiKTxXq
++hz6s82nQSFFSEGNApAOG2/eI3YOc8/lXIRC/wBWlaaxd7doI93+vKrgkZIYnC+pGf8AAe1SyOU6
+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
+ooooAKKKKACiiigAooooAKKKKAP/2Q==</Data></Thumbnail></Binary></gmd:MD_Metadata>
